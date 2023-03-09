@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+}
+.display{
+    position: fixed;
+    display: flex;
+    background-color: #0e2a47;
+    width: 100%;
+    height: 4em;
+}
+.menu{
+    display: flex;
+    background-color: #0e2a47;
+    width: 100%;
+    height: 50px;
+}
+#button-menu2{
+    position: fixed;
+    display:block;
+    padding: 0;
+    background-color: rgba(0,0,0,0);
+    border-width: 0;
+    top: 30px;
+    right: 30px;
+}
+#logo{
+    margin-left: 15%;
+    font-size: 1.3em;
+    color:#fefee2;
+    font-family: "OCR A Extended", monospace;
+}
+#round{
+    margin-top: 1.7em;
+    margin-left: 0.4em;
+    margin-right: 50%;
+    width: 10px;
+    height: 10px;
+}
+.barre{
+    align-content: space-around;
+    color: #fefee2;
+    padding: 1.5em 1em;
+    font-family: "OCR A Extended", monospace;
+    text-decoration: none;
+}
+.barre:active{
+    color: #9e1328;
+}
+#home{
+    color: #f7d85b;
+}
+#home:active{
+    color: #9e1328;
+}
+#sep{
+    padding:0;
+    margin: 0;
+    padding-top: 2em;
+    width: 100%;
+    height: 4em;
+}
+#formulaire{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border: 2px solid black;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+#mail{
+    margin-bottom: 4px;
+}#enveloppe{
+     padding-left: 42%;
+     height: 250px;
+     width: 250px;
+ }
+#connect{
+    text-align: center;
+    color: red;
+}
+#textarea{
+    resize: none;
+    height: 20%;
+    width: 99%;
+}
+
